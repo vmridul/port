@@ -12,6 +12,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.2.2"
+    "@astrojs/react": "^5.0.4",
+    "@paper-design/shaders-react": "^0.0.76",
+    "@tailwindcss/vite": "^4.2.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.2.2",
+    "hugeicons-react": "^0.4.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-github-calendar": "^5.0.6",
+    "tailwindcss": "^4.2.4"
   }
 }

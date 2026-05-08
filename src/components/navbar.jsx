@@ -20,19 +20,19 @@ export default function Navbar() {
   return (
     <>
       <div className="fixed top-0 left-0 right-0 z-9999 flex items-start self-stretch bg-[#141518]">
-        <div className="relative h-13.75 w-13.75 shrink-0 bg-[#121415] border-b border-b-solid border-b-[#1C2129] border-r border-r-solid border-r-[#1C2129]">
+        <div className="relative h-13.75 w-0 md:w-13.75 shrink-0 bg-[#121415] border-b border-b-solid border-b-[#1C2129] border-r border-r-solid border-r-[#1C2129]">
           <Marker className="-top-1 -left-1" />
           <Marker className="-top-1 -right-1" />
           <Marker className="-bottom-1 -left-1" />
           <Marker className="-bottom-1 -right-1" />
         </div>
-        <div className="relative h-13.75 w-27.5 shrink-0 border-b border-b-solid border-b-[#1C2129] border-r border-r-solid border-r-[#1C2129]">
+        <div className="relative h-13.75 w-4 md:w-27.5 shrink-0 border-b border-b-solid border-b-[#1C2129] border-r border-r-solid border-r-[#1C2129]">
           <Marker className="-top-1 -left-1" />
           <Marker className="-top-1 -right-1" />
           <Marker className="-bottom-1 -left-1" />
           <Marker className="-bottom-1 -right-1" />
         </div>
-        <div className="relative h-13.75 flex-1 flex items-center justify-between px-6 border-b border-b-solid border-b-[#1C2129] border-r border-r-solid border-r-[#1C2129]">
+        <div className="relative h-13.75 flex-1 flex items-center justify-between px-3 md:px-6 border-b border-b-solid border-b-[#1C2129] border-r border-r-solid border-r-[#1C2129]">
           <Marker className="-top-1 -left-1" />
           <Marker className="-top-1 -right-1" />
           <Marker className="-bottom-1 -left-1" />
@@ -47,7 +47,7 @@ export default function Navbar() {
               />
             </div>
 
-            <div className="flex items-center gap-8">
+            <div className="hidden sm:flex items-center gap-8">
               <div
                 onClick={() => scrollToSection("skills")}
                 className="cursor-pointer font-['iAWriterQuattroS-Regular','iA_Writer_Quattro_S',system-ui,sans-serif] text-[#A2A5AD] text-xs hover:text-white transition-colors"
@@ -63,7 +63,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 md:gap-3">
             <div
               onClick={() =>
                 window.open(
@@ -97,23 +97,23 @@ export default function Navbar() {
               className="cursor-pointer flex overflow-clip flex-col items-center rounded-sm justify-center bg-[#1448DC] hover:bg-[#0640AC] transition-colors duration-200 hover:border-[#0640AC] border border-solid border-[#1448DC]"
             >
               <div className="flex overflow-clip flex-col items-center px-2.5 py-1.5 rounded-[3px] justify-center [box-shadow:#171A2166_0px_-1px_0px_inset]">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-0 md:gap-2">
                   <GoogleDocIcon size={14} color="white" />
                   <div className="w-fit font-['iAWriterQuattroS-Regular','iA_Writer_Quattro_S',system-ui,sans-serif] text-white text-[11px]">
-                    Resume
+                    <span className="sm:block hidden">Resume</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="relative h-13.75 w-27.5 shrink-0 border-b border-b-solid border-b-[#1C2129] border-r border-r-solid border-r-[#1C2129]">
+        <div className="relative h-13.75  w-4 md:w-27.5 shrink-0 border-b border-b-solid border-b-[#1C2129] border-r border-r-solid border-r-[#1C2129]">
           <Marker className="-top-1 -left-1" />
           <Marker className="-top-1 -right-1" />
           <Marker className="-bottom-1 -left-1" />
           <Marker className="-bottom-1 -right-1" />
         </div>
-        <div className="relative h-13.75 w-13.75 shrink-0 bg-[#121415] border-b border-b-solid border-b-[#1C2129]">
+        <div className="relative h-13.75 w-0 md:w-13.75 shrink-0 bg-[#121415] border-b border-b-solid border-b-[#1C2129]">
           <Marker className="-top-1 -left-1" />
           <Marker className="-top-1 -right-1" />
           <Marker className="-bottom-1 -left-1" />

@@ -201,7 +201,7 @@ export default function Projects() {
               <div className="absolute inset-x-0 bottom-0 h-8 bg-[#090909]/90 border-t border-[#1C2129] md:translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center divide-x divide-[#1C2129]">
                 <div
                   onClick={() =>
-                    window.open("https://github.com/vmridul/portal", "_blank")
+                    window.open("https://github.com/vmridul/xor", "_blank")
                   }
                   className="flex-1 flex items-center justify-center gap-2 hover:bg-[#141518] cursor-pointer h-full transition-colors"
                 >

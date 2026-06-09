@@ -248,14 +248,16 @@ export default function Projects() {
             </div>
           </div>
           <div className="flex overflow-clip flex-col items-start px-4.5 py-4.5 self-stretch flex-1 gap-5">
-            <div className="relative group overflow-clip self-stretch h-62.5 shrink-0 border border-dashed border-[#1C2129]">
-              <div className="hidden absolute inset-x-0 bottom-0 h-8 bg-[#090909]/90 border-t border-[#1C2129] md:translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center divide-x divide-[#1C2129]">
+            <div className="relative group overflow-clip self-stretch h-62.5 shrink-0 border border-dashed border-[#1C2129] hover:border-[#415b77]">
+              <img
+                src="/isometic.png"
+                alt="Isometic Studio"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-x-0 bottom-0 h-8 bg-[#090909]/90 border-t border-[#1C2129] md:translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center divide-x divide-[#1C2129]">
                 <div
                   onClick={() =>
-                    window.open(
-                      "https://wanderly-tripplanner.vercel.app/",
-                      "_blank",
-                    )
+                    window.open("https://isometic.studio/", "_blank")
                   }
                   className="flex-1 flex items-center justify-center gap-2 hover:bg-[#141518] cursor-pointer h-full transition-colors"
                 >
@@ -264,31 +266,46 @@ export default function Projects() {
                     Live
                   </span>
                 </div>
-                <div
-                  onClick={() =>
-                    window.open("https://github.com/vmridul/wanderly", "_blank")
-                  }
-                  className="flex-1 flex items-center justify-center gap-2 hover:bg-[#141518] cursor-pointer h-full transition-colors"
-                >
-                  <GithubIcon size={14} color="white" />
-                  <span className="text-white text-xs font-['iAWriterQuattroS-Regular','iA_Writer_Quattro_S',system-ui,sans-serif]">
-                    Github
-                  </span>
-                </div>
               </div>
             </div>
             <div className="flex flex-col items-start gap-2.5">
               <div className="flex flex-col items-start">
                 <div className="w-fit font-['IBMPlexSerif-Regular','IBM_Plex_Serif',system-ui,sans-serif] text-white text-sm/4.5">
-                  Soon!
+                  Isometic Studio
                 </div>
                 <div className="w-full whitespace-normal font-['iAWriterQuattroS-Regular','iA_Writer_Quattro_S',system-ui,sans-serif] text-[#A2A5AD] text-sm/4.5">
-                  Building more stuff.
+                  Create isometric illustrations fast for your websites.
+                </div>
+              </div>
+              <div className="flex flex-wrap overflow-clip items-center gap-2.5">
+                <div className="flex overflow-clip rounded-xs flex-col items-start px-2.25 py-1.25 bg-[#1D2129]">
+                  <div className="w-fit font-['iAWriterQuattroS-Regular','iA_Writer_Quattro_S',system-ui,sans-serif] text-[#BCBCBC] text-xs/4">
+                    Next.js
+                  </div>
+                </div>
+                <div className="flex overflow-clip rounded-xs flex-col items-start px-2.25 py-1.25 bg-[#1D2129]">
+                  <div className="w-fit font-['iAWriterQuattroS-Regular','iA_Writer_Quattro_S',system-ui,sans-serif] text-[#BCBCBC] text-xs/4">
+                    React
+                  </div>
+                </div>
+                <div className="flex overflow-clip rounded-xs flex-col items-start px-2.25 py-1.25 bg-[#1D2129]">
+                  <div className="w-fit font-['iAWriterQuattroS-Regular','iA_Writer_Quattro_S',system-ui,sans-serif] text-[#BCBCBC] text-xs/4">
+                    Neon
+                  </div>
+                </div>
+                <div className="flex overflow-clip rounded-xs flex-col items-start px-2.25 py-1.25 bg-[#1D2129]">
+                  <div className="w-fit font-['iAWriterQuattroS-Regular','iA_Writer_Quattro_S',system-ui,sans-serif] text-[#BCBCBC] text-xs/4">
+                    Better Auth
+                  </div>
+                </div>
+                <div className="flex overflow-clip rounded-xs flex-col items-start px-2.25 py-1.25 bg-[#1D2129]">
+                  <div className="w-fit font-['iAWriterQuattroS-Regular','iA_Writer_Quattro_S',system-ui,sans-serif] text-[#BCBCBC] text-xs/4">
+                    Tailwind
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          a
         </div>
         <div className="overflow-clip w-4 md:w-27.5 self-stretch shrink-0 border-b border-b-solid border-b-[#1C2129] border-r border-r-solid border-r-[#1C2129]" />
         <div className="overflow-clip w-0 md:w-13.75 self-stretch shrink-0 bg-[#121415] border-b border-b-solid border-b-[#1C2129]" />
